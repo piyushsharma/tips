@@ -56,7 +56,7 @@ class ViewController: UIViewController {
         let intValue = defaults.integerForKey("defaultTip")
         tipControl.selectedSegmentIndex = intValue
         onEditingChanged(tipControl)
-        print("view will appear")
+        //print("view will appear")
     }
     
     override func viewDidAppear(animated: Bool) {
@@ -65,17 +65,17 @@ class ViewController: UIViewController {
         let intValue = defaults.integerForKey("defaultTip")
         tipControl.selectedSegmentIndex = intValue
         onEditingChanged(tipControl)
-        print("view did appear")
+        //print("view did appear")
     }
     
     override func viewWillDisappear(animated: Bool) {
         super.viewWillDisappear(animated)
-        print("view will disappear")
+        //print("view will disappear")
     }
     
     override func viewDidDisappear(animated: Bool) {
         super.viewDidDisappear(animated)
-        print("view did disappear")
+        //print("view did disappear")
     }
    
 }
